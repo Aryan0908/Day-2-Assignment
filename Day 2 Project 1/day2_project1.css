@@ -1,0 +1,84 @@
+.card{
+    width: 350px;
+    padding: 20px;
+    margin: 80px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+.food-img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.foodimg-div{
+    position: relative;
+}
+
+h1{
+    font-weight: 100;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 10px;
+    color: rgba(33, 27, 27, 0.492);
+}
+
+.delivery-img{
+    width: 20px;
+    height: 10px;
+}
+
+.disclaimer{
+    border-top: 1px solid lightgray;
+    width: 100%;
+    position: relative;
+    padding: 20px 0px 0px;
+}
+
+.delivery-img{
+    width: 57px;
+    height: 26px;
+}
+
+.disclaimer-para{
+    width: 80%;
+    position: absolute;
+    right: 0px;
+    top: -5px;
+    font-size: 17px;
+    color: rgba(33, 27, 27, 0.492);
+}
+
+.discount{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    background-color: blue;
+    color: white;
+    padding: 6px;
+}
+
+.time{
+    padding: 6px;
+    background-color: rgb(225, 220, 220);
+    border-radius: 10px;
+    position: absolute;
+    bottom: 5px;
+    right: 16px;
+}
+
+.promote{
+    position: absolute;
+    top: 4px;
+    left: 16px;
+    font-size: 11px;
+    background-color: grey;
+    padding: 3px 5px;
+    color: white;
+}
